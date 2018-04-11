@@ -1,4 +1,2 @@
 FROM composer
-RUN composer global require anahkiasen/rocketeer
-CMD ["rocketeer"]
-ENTRYPOINT []
+RUN composer require anahkiasen/rocketeer
